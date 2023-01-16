@@ -9,8 +9,9 @@ edition = "2021"
 anyhow = "1.0.68"
 
 [dev-dependencies]
-unsigned-varint = { version = "0.7.1", features = ["std"] }
 criterion = "0.4.0"
+rand = "0.8.5"
+unsigned-varint = { version = "0.7.1", features = ["std"] }
 
 [[bench]]
 name = "varint"
